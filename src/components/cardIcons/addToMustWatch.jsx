@@ -8,7 +8,7 @@ const AddToMustWatchIcon = ({ movie }) => {
 
     const onUserSelect = (e) => {
         e.preventDefault();
-        context.AddToMustWatch(movie);
+        context.addToMustWatch(movie);
     };
 
     return (
